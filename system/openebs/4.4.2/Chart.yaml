@@ -30,7 +30,7 @@ dependencies:
     tags: []
     import-values: []
   - name: lvm-localpv
-    version: 1.5.1
+    version: 1.6.2
     repository: https://openebs.github.io/lvm-localpv
     condition: lvm-localpv.enabled
     alias: ""
