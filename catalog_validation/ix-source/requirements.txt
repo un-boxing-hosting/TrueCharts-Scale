@@ -1,5 +1,5 @@
 gitpython
-jsonschema==4.10.3
+jsonschema==4.23.0
 kubernetes
 markdown
 pyyaml
