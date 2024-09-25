@@ -1,7 +1,7 @@
 image:
   repository: ghcr.io/onedr0p/sonarr
   pullPolicy: IfNotPresent
-  tag: 4.0.7.1863@sha256:63d9d99f3c1965cfba64f1537f53bd5daecf710a0c281559f3ac48e3de11b782
+  tag: rolling
 exportarrImage:
   repository: ghcr.io/onedr0p/exportarr
   pullPolicy: IfNotPresent
