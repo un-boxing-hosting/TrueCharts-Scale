@@ -16,7 +16,7 @@ dependencies:
     tags: []
     import-values: []
   - name: mongodb
-    version: 12.8.18
+    version: 14.2.1
     repository: oci://tccr.io/truecharts
     condition: mongodb.enabled
     alias: ""
