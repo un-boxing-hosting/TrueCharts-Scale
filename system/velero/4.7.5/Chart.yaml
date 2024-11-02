@@ -16,7 +16,7 @@ dependencies:
     tags: []
     import-values: []
   - name: velero
-    version: 5.4.1
+    version: 7.2.2
     repository: oci://ghcr.io/vmware-tanzu/charts
     condition: ""
     alias: velero
