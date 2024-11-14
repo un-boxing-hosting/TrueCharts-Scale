@@ -3,6 +3,9 @@
   "extends": [
     "config:recommended"
   ],
-      "fileMatch": ["(^|/)ix_values\\.ya?ml$"],
+    "helm-values": {
+      "fileMatch": ["(^|/)ix_values\\.ya?ml$","(^|/)values\\.ya?ml$"]
+    },
+  
       "automerge": true
 }
