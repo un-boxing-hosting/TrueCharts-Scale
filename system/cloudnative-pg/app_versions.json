@@ -3,8 +3,8 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/_work/catalog/catalog/system/cloudnative-pg/7.0.5",
-        "last_update": "2024-05-29 12:35:14",
+        "location": "/app/catalog/system/cloudnative-pg/7.0.5",
+        "last_update": "2024-09-20 03:10:48",
         "required_features": [],
         "human_version": "latest_7.0.5",
         "version": "7.0.5",
@@ -20,7 +20,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "23.0.0",
+                    "version": "23.0.11",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",
@@ -29,7 +29,7 @@
                 },
                 {
                     "name": "cloudnative-pg",
-                    "version": "0.20.2",
+                    "version": "0.22.0",
                     "repository": "https://cloudnative-pg.github.io/charts",
                     "condition": "",
                     "alias": "cloudnative-pg",
@@ -175,8 +175,8 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/_work/catalog/catalog/system/cloudnative-pg/7.0.4",
-        "last_update": "2024-05-29 12:35:14",
+        "location": "/app/catalog/system/cloudnative-pg/7.0.4",
+        "last_update": "2024-09-20 03:10:48",
         "required_features": [],
         "human_version": "latest_7.0.4",
         "version": "7.0.4",
@@ -192,7 +192,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "23.0.0",
+                    "version": "23.0.11",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",
@@ -201,7 +201,7 @@
                 },
                 {
                     "name": "cloudnative-pg",
-                    "version": "0.20.2",
+                    "version": "0.22.0",
                     "repository": "https://cloudnative-pg.github.io/charts",
                     "condition": "",
                     "alias": "cloudnative-pg",
@@ -476,8 +476,8 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/_work/catalog/catalog/system/cloudnative-pg/6.10.2",
-        "last_update": "2024-05-29 12:35:14",
+        "location": "/app/catalog/system/cloudnative-pg/6.10.2",
+        "last_update": "2024-09-22 11:56:32",
         "required_features": [],
         "human_version": "latest_6.10.2",
         "version": "6.10.2",
@@ -495,7 +495,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "20.3.12",
+                    "version": "20.4.1",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",
@@ -504,7 +504,7 @@
                 },
                 {
                     "name": "cloudnative-pg",
-                    "version": "0.20.2",
+                    "version": "0.22.0",
                     "repository": "https://cloudnative-pg.github.io/charts",
                     "condition": "",
                     "alias": "cloudnative-pg",

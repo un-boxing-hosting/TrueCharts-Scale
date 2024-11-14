@@ -3,8 +3,8 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/_work/catalog/catalog/system/velero/4.7.5",
-        "last_update": "2024-05-29 12:35:14",
+        "location": "/app/catalog/system/velero/4.7.5",
+        "last_update": "2024-09-22 11:56:32",
         "required_features": [],
         "human_version": "latest_4.7.5",
         "version": "4.7.5",
@@ -22,7 +22,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "20.2.10",
+                    "version": "20.4.1",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",
@@ -612,8 +612,8 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/_work/catalog/catalog/system/velero/4.7.4",
-        "last_update": "2024-05-29 12:35:14",
+        "location": "/app/catalog/system/velero/4.7.4",
+        "last_update": "2024-09-22 11:56:32",
         "required_features": [],
         "human_version": "latest_4.7.4",
         "version": "4.7.4",
@@ -631,7 +631,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "20.2.9",
+                    "version": "20.4.1",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",

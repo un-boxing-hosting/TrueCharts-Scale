@@ -3,11 +3,11 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/_work/catalog/catalog/system/volsync/1.0.8",
-        "last_update": "2024-05-29 12:35:14",
+        "location": "/app/catalog/system/volsync/1.0.8",
+        "last_update": "2024-09-20 02:39:05",
         "required_features": [
-            "definitions/timezone",
-            "definitions/certificate"
+            "definitions/certificate",
+            "definitions/timezone"
         ],
         "human_version": "0.9.1_1.0.8",
         "version": "1.0.8",
@@ -23,7 +23,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "23.0.0",
+                    "version": "23.0.11",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",

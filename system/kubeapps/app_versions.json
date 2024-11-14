@@ -3,11 +3,11 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/_work/catalog/catalog/system/kubeapps/3.0.5",
-        "last_update": "2024-05-29 12:35:14",
+        "location": "/app/catalog/system/kubeapps/3.0.5",
+        "last_update": "2024-09-22 12:00:19",
         "required_features": [
-            "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "normalize/interfaceConfiguration",
+            "definitions/interface"
         ],
         "human_version": "0.0.3_3.0.5",
         "version": "3.0.5",
@@ -23,7 +23,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "23.0.0",
+                    "version": "23.0.11",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",
@@ -32,7 +32,7 @@
                 },
                 {
                     "name": "kubeapps",
-                    "version": "15.0.3",
+                    "version": "15.3.10",
                     "repository": "oci://registry-1.docker.io/bitnamicharts",
                     "condition": "",
                     "alias": "ogkubeapps",
@@ -1790,11 +1790,11 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/_work/catalog/catalog/system/kubeapps/3.0.4",
-        "last_update": "2024-05-29 12:35:14",
+        "location": "/app/catalog/system/kubeapps/3.0.4",
+        "last_update": "2024-09-22 12:00:19",
         "required_features": [
-            "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "normalize/interfaceConfiguration",
+            "definitions/interface"
         ],
         "human_version": "0.0.3_3.0.4",
         "version": "3.0.4",
@@ -1810,7 +1810,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "23.0.0",
+                    "version": "23.0.11",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",
@@ -1819,7 +1819,7 @@
                 },
                 {
                     "name": "kubeapps",
-                    "version": "15.0.2",
+                    "version": "15.3.10",
                     "repository": "oci://registry-1.docker.io/bitnamicharts",
                     "condition": "",
                     "alias": "ogkubeapps",
@@ -3577,11 +3577,11 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/_work/catalog/catalog/system/kubeapps/2.10.16",
-        "last_update": "2024-05-29 12:35:14",
+        "location": "/app/catalog/system/kubeapps/2.10.16",
+        "last_update": "2024-09-23 18:38:33",
         "required_features": [
-            "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "normalize/interfaceConfiguration",
+            "definitions/interface"
         ],
         "human_version": "0.0.3_2.10.16",
         "version": "2.10.16",
@@ -3599,7 +3599,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "20.3.12",
+                    "version": "20.4.1",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",
@@ -3608,7 +3608,7 @@
                 },
                 {
                     "name": "kubeapps",
-                    "version": "15.0.2",
+                    "version": "15.3.10",
                     "repository": "oci://registry-1.docker.io/bitnamicharts",
                     "condition": "",
                     "alias": "ogkubeapps",
@@ -5237,11 +5237,11 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/_work/catalog/catalog/system/kubeapps/2.10.15",
-        "last_update": "2024-05-29 12:35:14",
+        "location": "/app/catalog/system/kubeapps/2.10.15",
+        "last_update": "2024-09-23 18:38:33",
         "required_features": [
-            "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "normalize/interfaceConfiguration",
+            "definitions/interface"
         ],
         "human_version": "0.0.3_2.10.15",
         "version": "2.10.15",
@@ -5259,7 +5259,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "20.3.11",
+                    "version": "20.4.1",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",
@@ -5268,7 +5268,7 @@
                 },
                 {
                     "name": "kubeapps",
-                    "version": "15.0.2",
+                    "version": "15.3.10",
                     "repository": "oci://registry-1.docker.io/bitnamicharts",
                     "condition": "",
                     "alias": "ogkubeapps",

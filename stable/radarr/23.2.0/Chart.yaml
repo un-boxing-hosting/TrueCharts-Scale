@@ -33,4 +33,4 @@ sources:
   - https://github.com/Radarr/Radarr
   - https://github.com/truecharts/charts/tree/master/charts/stable/radarr
 type: application
-version: 22.2.4
+version: 23.2.0

@@ -3,8 +3,8 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/_work/catalog/catalog/system/kubernetes-reflector/5.0.4",
-        "last_update": "2024-05-29 12:35:14",
+        "location": "/app/catalog/system/kubernetes-reflector/5.0.4",
+        "last_update": "2024-09-20 02:39:05",
         "required_features": [
             "definitions/certificate"
         ],
@@ -22,7 +22,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "23.0.0",
+                    "version": "23.0.11",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",
@@ -2272,8 +2272,8 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/_work/catalog/catalog/system/kubernetes-reflector/5.0.3",
-        "last_update": "2024-05-29 12:35:14",
+        "location": "/app/catalog/system/kubernetes-reflector/5.0.3",
+        "last_update": "2024-07-15 04:01:57",
         "required_features": [
             "definitions/certificate"
         ],
@@ -4557,8 +4557,8 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/_work/catalog/catalog/system/kubernetes-reflector/4.8.15",
-        "last_update": "2024-05-29 12:35:14",
+        "location": "/app/catalog/system/kubernetes-reflector/4.8.15",
+        "last_update": "2024-09-22 11:56:32",
         "required_features": [
             "definitions/certificate"
         ],
@@ -4578,7 +4578,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "20.3.12",
+                    "version": "20.4.1",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",
@@ -6699,8 +6699,8 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/_work/catalog/catalog/system/kubernetes-reflector/4.8.14",
-        "last_update": "2024-05-29 12:35:14",
+        "location": "/app/catalog/system/kubernetes-reflector/4.8.14",
+        "last_update": "2024-09-22 11:56:32",
         "required_features": [
             "definitions/certificate"
         ],
@@ -6720,7 +6720,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "20.3.11",
+                    "version": "20.4.1",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",

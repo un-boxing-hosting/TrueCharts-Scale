@@ -1,23 +1,22 @@
 {
     "charts": {},
     "test": {},
-    "incubator": {
-    },
+    "catalog_validation": {},
     "premium": {
         "vaultwarden": {
-            "app_readme": "<p>Unofficial Bitwarden compatible server written in Rust</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://github.com/un-boxing-hosting/TrueCharts-Scale/premium/vaultwarden\">https://github.com/un-boxing-hosting/TrueCharts-Scale/premium/vaultwarden</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "app_readme": "<p>Unofficial Bitwarden compatible server written in Rust</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/premium/vaultwarden\">https://truecharts.org/charts/premium/vaultwarden</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
             "categories": [
                 "security"
             ],
             "description": "Unofficial Bitwarden compatible server written in Rust",
             "healthy": true,
             "healthy_error": null,
-            "home": "https://github.com/un-boxing-hosting/TrueCharts-Scale/premium/vaultwarden",
-            "location": "/home/runner/_work/catalog/catalog/premium/vaultwarden",
+            "home": "https://truecharts.org/charts/premium/vaultwarden",
+            "location": "/app/catalog/premium/vaultwarden",
             "latest_version": "27.1.2",
             "latest_app_version": "1.30.5",
             "latest_human_version": "1.30.5_27.1.2",
-            "last_update": "2024-05-29 12:35:14",
+            "last_update": "2024-09-22 11:56:32",
             "name": "vaultwarden",
             "recommended": false,
             "title": "Vaultwarden",
@@ -40,21 +39,20 @@
         }
     },
     "stable": {
-
         "lidarr": {
-            "app_readme": "<p>Looks and smells like Sonarr but made for music</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://github.com/un-boxing-hosting/TrueCharts-Scale/stable/lidarr\">https://github.com/un-boxing-hosting/TrueCharts-Scale/stable/lidarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "app_readme": "<p>Looks and smells like Sonarr but made for music</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/lidarr\">https://truecharts.org/charts/stable/lidarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
             "categories": [
                 "media"
             ],
             "description": "Looks and smells like Sonarr but made for music",
             "healthy": true,
             "healthy_error": null,
-            "home": "https://github.com/un-boxing-hosting/TrueCharts-Scale/stable/lidarr",
-            "location": "/home/runner/_work/catalog/catalog/stable/lidarr",
+            "home": "https://truecharts.org/charts/stable/lidarr",
+            "location": "/app/catalog/stable/lidarr",
             "latest_version": "22.1.6",
             "latest_app_version": "2.3.3.4204",
             "latest_human_version": "2.3.3.4204_22.1.6",
-            "last_update": "2024-05-29 12:35:14",
+            "last_update": "2024-11-14 00:26:29",
             "name": "lidarr",
             "recommended": false,
             "title": "Lidarr",
@@ -76,19 +74,19 @@
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/lidarr.webp"
         },
         "plex": {
-            "app_readme": "<p>Plex Media Server</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://github.com/un-boxing-hosting/TrueCharts-Scale/stable/plex\">https://github.com/un-boxing-hosting/TrueCharts-Scale/stable/plex</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "app_readme": "<p>Plex Media Server</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/plex\">https://truecharts.org/charts/stable/plex</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
             "categories": [
                 "media"
             ],
             "description": "Plex Media Server",
             "healthy": true,
             "healthy_error": null,
-            "home": "https://github.com/un-boxing-hosting/TrueCharts-Scale/stable/plex",
-            "location": "/home/runner/_work/catalog/catalog/stable/plex",
+            "home": "https://truecharts.org/charts/stable/plex",
+            "location": "/app/catalog/stable/plex",
             "latest_version": "19.0.3",
             "latest_app_version": "1.40.4.8679",
             "latest_human_version": "1.40.4.8679_19.0.3",
-            "last_update": "2024-07-14 12:35:14",
+            "last_update": "2024-09-22 11:56:32",
             "name": "plex",
             "recommended": false,
             "title": "Plex",
@@ -109,19 +107,19 @@
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/plex.webp"
         },
         "prowlarr": {
-            "app_readme": "<p>Indexer manager/proxy built on the popular arr net base stack to integrate with your various PVR apps.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://github.com/un-boxing-hosting/TrueCharts-Scale/stable/prowlarr\">https://github.com/un-boxing-hosting/TrueCharts-Scale/stable/prowlarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "app_readme": "<p>Indexer manager/proxy built on the popular arr net base stack to integrate with your various PVR apps.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/prowlarr\">https://truecharts.org/charts/stable/prowlarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
             "categories": [
                 "media"
             ],
             "description": "Indexer manager/proxy built on the popular arr net base stack to integrate with your various PVR apps.",
             "healthy": true,
             "healthy_error": null,
-            "home": "https://github.com/un-boxing-hosting/TrueCharts-Scale/stable/prowlarr",
-            "location": "/home/runner/_work/catalog/catalog/stable/prowlarr",
+            "home": "https://truecharts.org/charts/stable/prowlarr",
+            "location": "/app/catalog/stable/prowlarr",
             "latest_version": "18.3.1",
             "latest_app_version": "1.20.1.4603",
             "latest_human_version": "1.20.1.4603_18.3.1",
-            "last_update": "2024-07-14 12:35:14",
+            "last_update": "2024-09-22 11:56:32",
             "name": "prowlarr",
             "recommended": false,
             "title": "Prowlarr",
@@ -144,19 +142,19 @@
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/prowlarr.webp"
         },
         "radarr": {
-            "app_readme": "<p>A fork of Sonarr to work with movies \u00e0 la Couchpotato</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://github.com/un-boxing-hosting/TrueCharts-Scale/stable/radarr\">https://github.com/un-boxing-hosting/TrueCharts-Scale/stable/radarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "app_readme": "<p>A fork of Sonarr to work with movies \u00e0 la Couchpotato</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/radarr\">https://truecharts.org/charts/stable/radarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
             "categories": [
                 "media"
             ],
             "description": "A fork of Sonarr to work with movies \u00e0 la Couchpotato",
             "healthy": true,
             "healthy_error": null,
-            "home": "https://github.com/un-boxing-hosting/TrueCharts-Scale/stable/radarr",
-            "location": "/home/runner/_work/catalog/catalog/stable/radarr",
+            "home": "https://truecharts.org/charts/stable/radarr",
+            "location": "/app/catalog/stable/radarr",
             "latest_version": "23.2.0",
             "latest_app_version": "5.7.0.8882",
             "latest_human_version": "5.7.0.8882_23.2.0",
-            "last_update": "2024-07-14 12:35:14",
+            "last_update": "2024-09-22 11:56:32",
             "name": "radarr",
             "recommended": false,
             "title": "Radarr",
@@ -178,19 +176,19 @@
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/radarr.webp"
         },
         "readarr": {
-            "app_readme": "<p>A fork of Radarr to work with Books &amp; AudioBooks</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://github.com/un-boxing-hosting/TrueCharts-Scale/stable/readarr\">https://github.com/un-boxing-hosting/TrueCharts-Scale/stable/readarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "app_readme": "<p>A fork of Radarr to work with Books &amp; AudioBooks</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/readarr\">https://truecharts.org/charts/stable/readarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
             "categories": [
                 "media"
             ],
             "description": "A fork of Radarr to work with Books & AudioBooks",
             "healthy": true,
             "healthy_error": null,
-            "home": "https://github.com/un-boxing-hosting/TrueCharts-Scale/stable/readarr",
-            "location": "/home/runner/_work/catalog/catalog/stable/readarr",
+            "home": "https://truecharts.org/charts/stable/readarr",
+            "location": "/app/catalog/stable/readarr",
             "latest_version": "22.0.12",
             "latest_app_version": "0.3.27.2538",
             "latest_human_version": "0.3.27.2538_22.0.12",
-            "last_update": "2024-05-29 12:35:14",
+            "last_update": "2024-09-22 11:56:32",
             "name": "readarr",
             "recommended": false,
             "title": "Readarr",
@@ -213,19 +211,19 @@
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/readarr.webp"
         },
         "sabnzbd": {
-            "app_readme": "<p>Free and easy binary newsreader</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://github.com/un-boxing-hosting/TrueCharts-Scale/stable/sabnzbd\">https://github.com/un-boxing-hosting/TrueCharts-Scale/stable/sabnzbd</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "app_readme": "<p>Free and easy binary newsreader</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/sabnzbd\">https://truecharts.org/charts/stable/sabnzbd</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
             "categories": [
                 "media"
             ],
             "description": "Free and easy binary newsreader",
             "healthy": true,
             "healthy_error": null,
-            "home": "https://github.com/un-boxing-hosting/TrueCharts-Scale/stable/sabnzbd",
-            "location": "/home/runner/_work/catalog/catalog/stable/sabnzbd",
+            "home": "https://truecharts.org/charts/stable/sabnzbd",
+            "location": "/app/catalog/stable/sabnzbd",
             "latest_version": "20.1.5",
             "latest_app_version": "4.3.1",
             "latest_human_version": "4.3.1_20.1.5",
-            "last_update": "2024-05-29 12:35:14",
+            "last_update": "2024-11-14 00:29:43",
             "name": "sabnzbd",
             "recommended": false,
             "title": "Sabnzbd",
@@ -247,19 +245,19 @@
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/sabnzbd.webp"
         },
         "sonarr": {
-            "app_readme": "<p>Smart PVR for newsgroup and bittorrent users</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://github.com/un-boxing-hosting/TrueCharts-Scale/stable/sonarr\">https://github.com/un-boxing-hosting/TrueCharts-Scale/stable/sonarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "app_readme": "<p>Smart PVR for newsgroup and bittorrent users</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/sonarr\">https://truecharts.org/charts/stable/sonarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
             "categories": [
                 "media"
             ],
             "description": "Smart PVR for newsgroup and bittorrent users",
             "healthy": true,
             "healthy_error": null,
-            "home": "https://github.com/un-boxing-hosting/TrueCharts-Scale/stable/sonarr",
-            "location": "/home/runner/_work/catalog/catalog/stable/sonarr",
-            "latest_version": "23.0.3",
-            "latest_app_version": "4.0.7.1863",
-            "latest_human_version": "4.0.7.1863_23.0.3",
-            "last_update": "2024-07-14 12:35:14",
+            "home": "https://truecharts.org/charts/stable/sonarr",
+            "location": "/app/catalog/stable/sonarr",
+            "latest_version": "22.0.10",
+            "latest_app_version": "4.0.4.1491",
+            "latest_human_version": "4.0.4.1491_22.0.10",
+            "last_update": "2024-09-26 15:21:18",
             "name": "sonarr",
             "recommended": false,
             "title": "Sonarr",
@@ -280,23 +278,22 @@
             ],
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/sonarr.webp"
         }
-        
     },
     "system": {
         "cert-manager": {
-            "app_readme": "<p>Cert-Manager is a kubernetes-aware certificate manager</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://github.com/un-boxing-hosting/TrueCharts-Scale/system/cert-manager\">https://github.com/un-boxing-hosting/TrueCharts-Scale/system/cert-manager</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "app_readme": "<p>Cert-Manager is a kubernetes-aware certificate manager</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/system/cert-manager\">https://truecharts.org/charts/system/cert-manager</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
             "categories": [
                 "operators"
             ],
             "description": "Cert-Manager is a kubernetes-aware certificate manager",
             "healthy": true,
             "healthy_error": null,
-            "home": "https://github.com/un-boxing-hosting/TrueCharts-Scale/system/cert-manager",
-            "location": "/home/runner/_work/catalog/catalog/system/cert-manager",
+            "home": "https://truecharts.org/charts/system/cert-manager",
+            "location": "/app/catalog/system/cert-manager",
             "latest_version": "5.0.4",
             "latest_app_version": "latest",
             "latest_human_version": "latest_5.0.4",
-            "last_update": "2024-05-29 12:35:14",
+            "last_update": "2024-09-22 11:56:32",
             "name": "cert-manager",
             "recommended": false,
             "title": "Cert-manager",
@@ -318,19 +315,19 @@
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/cert-manager.webp"
         },
         "cloudnative-pg": {
-            "app_readme": "<p>CloudNativePG is a clustered postgresql database operator</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://github.com/un-boxing-hosting/TrueCharts-Scale/system/cloudnative-pg\">https://github.com/un-boxing-hosting/TrueCharts-Scale/system/cloudnative-pg</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "app_readme": "<p>CloudNativePG is a clustered postgresql database operator</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/system/cloudnative-pg\">https://truecharts.org/charts/system/cloudnative-pg</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
             "categories": [
                 "operators"
             ],
             "description": "CloudNativePG is a clustered postgresql database operator",
             "healthy": true,
             "healthy_error": null,
-            "home": "https://github.com/un-boxing-hosting/TrueCharts-Scale/system/cloudnative-pg",
-            "location": "/home/runner/_work/catalog/catalog/system/cloudnative-pg",
+            "home": "https://truecharts.org/charts/system/cloudnative-pg",
+            "location": "/app/catalog/system/cloudnative-pg",
             "latest_version": "7.0.5",
             "latest_app_version": "latest",
             "latest_human_version": "latest_7.0.5",
-            "last_update": "2024-05-29 12:35:14",
+            "last_update": "2024-09-22 11:56:32",
             "name": "cloudnative-pg",
             "recommended": false,
             "title": "Cloudnative-pg",
@@ -352,19 +349,19 @@
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/cloudnative-pg.webp"
         },
         "grafana-agent-operator": {
-            "app_readme": "<p>Grafana Scraping Agent Operator</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://github.com/un-boxing-hosting/TrueCharts-Scale/system/grafana-agent-operator\">https://github.com/un-boxing-hosting/TrueCharts-Scale/system/grafana-agent-operator</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "app_readme": "<p>Grafana Scraping Agent Operator</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/system/grafana-agent-operator\">https://truecharts.org/charts/system/grafana-agent-operator</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
             "categories": [
                 "system"
             ],
             "description": "Grafana Scraping Agent Operator",
             "healthy": true,
             "healthy_error": null,
-            "home": "https://github.com/un-boxing-hosting/TrueCharts-Scale/system/grafana-agent-operator",
-            "location": "/home/runner/_work/catalog/catalog/system/grafana-agent-operator",
+            "home": "https://truecharts.org/charts/system/grafana-agent-operator",
+            "location": "/app/catalog/system/grafana-agent-operator",
             "latest_version": "1.8.7",
             "latest_app_version": "0.39.2",
             "latest_human_version": "0.39.2_1.8.7",
-            "last_update": "2024-05-29 12:35:14",
+            "last_update": "2024-09-22 11:56:32",
             "name": "grafana-agent-operator",
             "recommended": false,
             "title": "Grafana-agent-operator",
@@ -385,19 +382,19 @@
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/grafana-agent-operator.webp"
         },
         "kubeapps": {
-            "app_readme": "<p>KubeApps is a Kubernetes-as-Apps solution</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://github.com/un-boxing-hosting/TrueCharts-Scale/system/kubeapps\">https://github.com/un-boxing-hosting/TrueCharts-Scale/system/kubeapps</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "app_readme": "<p>KubeApps is a Kubernetes-as-Apps solution</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/system/kubeapps\">https://truecharts.org/charts/system/kubeapps</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
             "categories": [
                 "operators"
             ],
             "description": "KubeApps is a Kubernetes-as-Apps solution",
             "healthy": true,
             "healthy_error": null,
-            "home": "https://github.com/un-boxing-hosting/TrueCharts-Scale/system/kubeapps",
-            "location": "/home/runner/_work/catalog/catalog/system/kubeapps",
+            "home": "https://truecharts.org/charts/system/kubeapps",
+            "location": "/app/catalog/system/kubeapps",
             "latest_version": "3.0.5",
             "latest_app_version": "0.0.3",
             "latest_human_version": "0.0.3_3.0.5",
-            "last_update": "2024-05-29 12:35:14",
+            "last_update": "2024-09-23 18:38:33",
             "name": "kubeapps",
             "recommended": false,
             "title": "Kubeapps",
@@ -419,19 +416,19 @@
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/kubeapps.webp"
         },
         "kubernetes-reflector": {
-            "app_readme": "<p>Kubernetes-Reflector is a Kubernetes addon designed to monitor and reflect changes to secrets and configmaps across namespaces</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://github.com/un-boxing-hosting/TrueCharts-Scale/system/kubernetes-reflector\">https://github.com/un-boxing-hosting/TrueCharts-Scale/system/kubernetes-reflector</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "app_readme": "<p>Kubernetes-Reflector is a Kubernetes addon designed to monitor and reflect changes to secrets and configmaps across namespaces</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/system/kubernetes-reflector\">https://truecharts.org/charts/system/kubernetes-reflector</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
             "categories": [
                 "operators"
             ],
             "description": "Kubernetes-Reflector is a Kubernetes addon designed to monitor and reflect changes to secrets and configmaps across namespaces",
             "healthy": true,
             "healthy_error": null,
-            "home": "https://github.com/un-boxing-hosting/TrueCharts-Scale/system/kubernetes-reflector",
-            "location": "/home/runner/_work/catalog/catalog/system/kubernetes-reflector",
+            "home": "https://truecharts.org/charts/system/kubernetes-reflector",
+            "location": "/app/catalog/system/kubernetes-reflector",
             "latest_version": "5.0.4",
             "latest_app_version": "7.1.217",
             "latest_human_version": "7.1.217_5.0.4",
-            "last_update": "2024-05-29 12:35:14",
+            "last_update": "2024-09-22 11:56:32",
             "name": "kubernetes-reflector",
             "recommended": false,
             "title": "Kubernetes-reflector",
@@ -452,19 +449,19 @@
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/kubernetes-reflector.webp"
         },
         "metallb": {
-            "app_readme": "<p>A network load-balancer implementation for Kubernetes using standard routing protocols</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://github.com/un-boxing-hosting/TrueCharts-Scale/system/metallb\">https://github.com/un-boxing-hosting/TrueCharts-Scale/system/metallb</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "app_readme": "<p>A network load-balancer implementation for Kubernetes using standard routing protocols</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/system/metallb\">https://truecharts.org/charts/system/metallb</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
             "categories": [
                 "operators"
             ],
             "description": "A network load-balancer implementation for Kubernetes using standard routing protocols",
             "healthy": true,
             "healthy_error": null,
-            "home": "https://github.com/un-boxing-hosting/TrueCharts-Scale/system/metallb",
-            "location": "/home/runner/_work/catalog/catalog/system/metallb",
+            "home": "https://truecharts.org/charts/system/metallb",
+            "location": "/app/catalog/system/metallb",
             "latest_version": "15.0.4",
             "latest_app_version": "latest",
             "latest_human_version": "latest_15.0.4",
-            "last_update": "2024-05-29 12:35:14",
+            "last_update": "2024-09-22 11:56:32",
             "name": "metallb",
             "recommended": false,
             "title": "Metallb",
@@ -486,19 +483,19 @@
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/metallb.webp"
         },
         "openebs": {
-            "app_readme": "<p>OpenEBS is a umbrella chart for multiple container storage provisioners</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://github.com/un-boxing-hosting/TrueCharts-Scale/system/openebs\">https://github.com/un-boxing-hosting/TrueCharts-Scale/system/openebs</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "app_readme": "<p>OpenEBS is a umbrella chart for multiple container storage provisioners</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/system/openebs\">https://truecharts.org/charts/system/openebs</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
             "categories": [
                 "CSI"
             ],
             "description": "OpenEBS is a umbrella chart for multiple container storage provisioners",
             "healthy": true,
             "healthy_error": null,
-            "home": "https://github.com/un-boxing-hosting/TrueCharts-Scale/system/openebs",
-            "location": "/home/runner/_work/catalog/catalog/system/openebs",
+            "home": "https://truecharts.org/charts/system/openebs",
+            "location": "/app/catalog/system/openebs",
             "latest_version": "6.0.1",
             "latest_app_version": "latest",
             "latest_human_version": "latest_6.0.1",
-            "last_update": "2024-05-29 12:35:14",
+            "last_update": "2024-09-22 11:56:32",
             "name": "openebs",
             "recommended": false,
             "title": "Openebs",
@@ -520,19 +517,19 @@
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/openebs.webp"
         },
         "prometheus-operator": {
-            "app_readme": "<p>Prometheus Operator is an operator for prometheus</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://github.com/un-boxing-hosting/TrueCharts-Scale/system/prometheus-operator\">https://github.com/un-boxing-hosting/TrueCharts-Scale/system/prometheus-operator</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "app_readme": "<p>Prometheus Operator is an operator for prometheus</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/system/prometheus-operator\">https://truecharts.org/charts/system/prometheus-operator</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
             "categories": [
                 "operators"
             ],
             "description": "Prometheus Operator is an operator for prometheus",
             "healthy": true,
             "healthy_error": null,
-            "home": "https://github.com/un-boxing-hosting/TrueCharts-Scale/system/prometheus-operator",
-            "location": "/home/runner/_work/catalog/catalog/system/prometheus-operator",
+            "home": "https://truecharts.org/charts/system/prometheus-operator",
+            "location": "/app/catalog/system/prometheus-operator",
             "latest_version": "7.0.4",
             "latest_app_version": "latest",
             "latest_human_version": "latest_7.0.4",
-            "last_update": "2024-05-29 12:35:14",
+            "last_update": "2024-09-22 11:56:32",
             "name": "prometheus-operator",
             "recommended": false,
             "title": "Prometheus-operator",
@@ -553,19 +550,19 @@
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/prometheus-operator.webp"
         },
         "snapshot-controller": {
-            "app_readme": "<p>Deploys a Snapshot Controller in a cluster. Snapshot Controllers are often bundled with the Kubernetes distribution,\nthis chart is meant for cases where it is not.\nAlso deploys the Snapshot Validation Webhook and configures your cluster to validate every <code>VolumeSnapshot</code> and\n<code>VolumeSnapshotContent</code> resource by sending it to the webhook.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://github.com/un-boxing-hosting/TrueCharts-Scale/system/snapshot-controller\">https://github.com/un-boxing-hosting/TrueCharts-Scale/system/snapshot-controller</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "app_readme": "<p>Deploys a Snapshot Controller in a cluster. Snapshot Controllers are often bundled with the Kubernetes distribution,\nthis chart is meant for cases where it is not.\nAlso deploys the Snapshot Validation Webhook and configures your cluster to validate every <code>VolumeSnapshot</code> and\n<code>VolumeSnapshotContent</code> resource by sending it to the webhook.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/system/snapshot-controller\">https://truecharts.org/charts/system/snapshot-controller</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
             "categories": [
                 "network"
             ],
             "description": "Deploys a Snapshot Controller in a cluster. Snapshot Controllers are often bundled with the Kubernetes distribution,\nthis chart is meant for cases where it is not.\nAlso deploys the Snapshot Validation Webhook and configures your cluster to validate every `VolumeSnapshot` and\n`VolumeSnapshotContent` resource by sending it to the webhook.\n",
             "healthy": true,
             "healthy_error": null,
-            "home": "https://github.com/un-boxing-hosting/TrueCharts-Scale/system/snapshot-controller",
-            "location": "/home/runner/_work/catalog/catalog/system/snapshot-controller",
+            "home": "https://truecharts.org/charts/system/snapshot-controller",
+            "location": "/app/catalog/system/snapshot-controller",
             "latest_version": "1.0.1",
             "latest_app_version": "7.0.1",
             "latest_human_version": "7.0.1_1.0.1",
-            "last_update": "2024-05-29 12:35:14",
+            "last_update": "2024-09-20 02:39:05",
             "name": "snapshot-controller",
             "recommended": false,
             "title": "Snapshot-controller",
@@ -587,19 +584,19 @@
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/snapshot-controller.webp"
         },
         "traefik-crds": {
-            "app_readme": "<p>Traefik-CRDs contains the CRD's for Traefik</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://github.com/un-boxing-hosting/TrueCharts-Scale/system/traefik-crds\">https://github.com/un-boxing-hosting/TrueCharts-Scale/system/traefik-crds</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "app_readme": "<p>Traefik-CRDs contains the CRD's for Traefik</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/system/traefik-crds\">https://truecharts.org/charts/system/traefik-crds</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
             "categories": [
                 "network"
             ],
             "description": "Traefik-CRDs contains the CRD's for Traefik",
             "healthy": true,
             "healthy_error": null,
-            "home": "https://github.com/un-boxing-hosting/TrueCharts-Scale/system/traefik-crds",
-            "location": "/home/runner/_work/catalog/catalog/system/traefik-crds",
+            "home": "https://truecharts.org/charts/system/traefik-crds",
+            "location": "/app/catalog/system/traefik-crds",
             "latest_version": "2.0.4",
             "latest_app_version": "latest",
             "latest_human_version": "latest_2.0.4",
-            "last_update": "2024-05-29 12:35:14",
+            "last_update": "2024-09-22 11:56:32",
             "name": "traefik-crds",
             "recommended": false,
             "title": "Traefik-crds",
@@ -622,19 +619,19 @@
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/traefik-crds.webp"
         },
         "velero": {
-            "app_readme": "<p>Velero is a kubernetes-native backup solution</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://github.com/un-boxing-hosting/TrueCharts-Scale/system/velero\">https://github.com/un-boxing-hosting/TrueCharts-Scale/system/velero</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "app_readme": "<p>Velero is a kubernetes-native backup solution</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/system/velero\">https://truecharts.org/charts/system/velero</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
             "categories": [
                 "operators"
             ],
             "description": "Velero is a kubernetes-native backup solution",
             "healthy": true,
             "healthy_error": null,
-            "home": "https://github.com/un-boxing-hosting/TrueCharts-Scale/system/velero",
-            "location": "/home/runner/_work/catalog/catalog/system/velero",
+            "home": "https://truecharts.org/charts/system/velero",
+            "location": "/app/catalog/system/velero",
             "latest_version": "4.7.5",
             "latest_app_version": "latest",
             "latest_human_version": "latest_4.7.5",
-            "last_update": "2024-05-29 12:35:14",
+            "last_update": "2024-09-22 11:56:32",
             "name": "velero",
             "recommended": false,
             "title": "Velero",
@@ -656,19 +653,19 @@
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/velero.png"
         },
         "volsync": {
-            "app_readme": "<p>volsync is a storage backup and synchronisation tool.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://github.com/un-boxing-hosting/TrueCharts-Scale/system/volsync\">https://github.com/un-boxing-hosting/TrueCharts-Scale/system/volsync</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "app_readme": "<p>volsync is a storage backup and synchronisation tool.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/system/volsync\">https://truecharts.org/charts/system/volsync</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
             "categories": [
                 "network"
             ],
             "description": "volsync is a storage backup and synchronisation tool.",
             "healthy": true,
             "healthy_error": null,
-            "home": "https://github.com/un-boxing-hosting/TrueCharts-Scale/system/volsync",
-            "location": "/home/runner/_work/catalog/catalog/system/volsync",
+            "home": "https://truecharts.org/charts/system/volsync",
+            "location": "/app/catalog/system/volsync",
             "latest_version": "1.0.8",
             "latest_app_version": "0.9.1",
             "latest_human_version": "0.9.1_1.0.8",
-            "last_update": "2024-05-29 12:35:14",
+            "last_update": "2024-09-20 02:39:05",
             "name": "volsync",
             "recommended": false,
             "title": "Volsync",
@@ -692,19 +689,19 @@
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/volsync.webp"
         },
         "volumesnapshots": {
-            "app_readme": "<p>volumesnapshots contains the CRD's for Kubernetes Volume Snapshots</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://github.com/un-boxing-hosting/TrueCharts-Scale/system/volumesnapshots\">https://github.com/un-boxing-hosting/TrueCharts-Scale/system/volumesnapshots</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "app_readme": "<p>volumesnapshots contains the CRD's for Kubernetes Volume Snapshots</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/system/volumesnapshots\">https://truecharts.org/charts/system/volumesnapshots</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
             "categories": [
                 "network"
             ],
             "description": "volumesnapshots contains the CRD's for Kubernetes Volume Snapshots",
             "healthy": true,
             "healthy_error": null,
-            "home": "https://github.com/un-boxing-hosting/TrueCharts-Scale/system/volumesnapshots",
-            "location": "/home/runner/_work/catalog/catalog/system/volumesnapshots",
+            "home": "https://truecharts.org/charts/system/volumesnapshots",
+            "location": "/app/catalog/system/volumesnapshots",
             "latest_version": "2.0.3",
             "latest_app_version": "latest",
             "latest_human_version": "latest_2.0.3",
-            "last_update": "2024-05-29 12:35:14",
+            "last_update": "2024-09-22 11:56:32",
             "name": "volumesnapshots",
             "recommended": false,
             "title": "Volumesnapshots",

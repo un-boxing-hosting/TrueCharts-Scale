@@ -3,8 +3,8 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/_work/catalog/catalog/system/prometheus-operator/7.0.4",
-        "last_update": "2024-05-29 12:35:14",
+        "location": "/app/catalog/system/prometheus-operator/7.0.4",
+        "last_update": "2024-09-20 03:10:48",
         "required_features": [],
         "human_version": "latest_7.0.4",
         "version": "7.0.4",
@@ -20,7 +20,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "23.0.0",
+                    "version": "23.0.11",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",
@@ -29,7 +29,7 @@
                 },
                 {
                     "name": "kube-prometheus-stack",
-                    "version": "56.21.0",
+                    "version": "56.21.4",
                     "repository": "oci://ghcr.io/prometheus-community/charts",
                     "condition": "",
                     "alias": "kps",
@@ -303,8 +303,8 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/_work/catalog/catalog/system/prometheus-operator/7.0.3",
-        "last_update": "2024-05-29 12:35:14",
+        "location": "/app/catalog/system/prometheus-operator/7.0.3",
+        "last_update": "2024-09-20 02:40:37",
         "required_features": [],
         "human_version": "latest_7.0.3",
         "version": "7.0.3",
@@ -329,7 +329,7 @@
                 },
                 {
                     "name": "kube-prometheus-stack",
-                    "version": "56.21.0",
+                    "version": "56.21.4",
                     "repository": "oci://ghcr.io/prometheus-community/charts",
                     "condition": "",
                     "alias": "kps",
@@ -619,8 +619,8 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/_work/catalog/catalog/system/prometheus-operator/6.10.15",
-        "last_update": "2024-05-29 12:35:14",
+        "location": "/app/catalog/system/prometheus-operator/6.10.15",
+        "last_update": "2024-09-22 11:56:32",
         "required_features": [],
         "human_version": "latest_6.10.15",
         "version": "6.10.15",
@@ -638,7 +638,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "20.3.12",
+                    "version": "20.4.1",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",
@@ -647,7 +647,7 @@
                 },
                 {
                     "name": "kube-prometheus-stack",
-                    "version": "56.21.0",
+                    "version": "56.21.4",
                     "repository": "oci://ghcr.io/prometheus-community/charts",
                     "condition": "",
                     "alias": "kps",
@@ -792,8 +792,8 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/_work/catalog/catalog/system/prometheus-operator/6.10.14",
-        "last_update": "2024-05-29 12:35:14",
+        "location": "/app/catalog/system/prometheus-operator/6.10.14",
+        "last_update": "2024-09-22 11:56:32",
         "required_features": [],
         "human_version": "latest_6.10.14",
         "version": "6.10.14",
@@ -811,7 +811,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "20.3.11",
+                    "version": "20.4.1",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",
@@ -820,7 +820,7 @@
                 },
                 {
                     "name": "kube-prometheus-stack",
-                    "version": "56.21.0",
+                    "version": "56.21.4",
                     "repository": "oci://ghcr.io/prometheus-community/charts",
                     "condition": "",
                     "alias": "kps",

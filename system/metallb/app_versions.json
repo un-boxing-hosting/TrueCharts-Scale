@@ -3,8 +3,8 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/_work/catalog/catalog/system/metallb/15.0.4",
-        "last_update": "2024-05-29 12:35:14",
+        "location": "/app/catalog/system/metallb/15.0.4",
+        "last_update": "2024-09-20 03:11:45",
         "required_features": [],
         "human_version": "latest_15.0.4",
         "version": "15.0.4",
@@ -20,7 +20,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "23.0.0",
+                    "version": "23.0.11",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",
@@ -29,7 +29,7 @@
                 },
                 {
                     "name": "metallb",
-                    "version": "0.14.5",
+                    "version": "0.14.8",
                     "repository": "https://metallb.github.io/metallb",
                     "condition": "",
                     "alias": "metallb",
@@ -303,8 +303,8 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/_work/catalog/catalog/system/metallb/15.0.3",
-        "last_update": "2024-05-29 12:35:14",
+        "location": "/app/catalog/system/metallb/15.0.3",
+        "last_update": "2024-09-20 02:28:12",
         "required_features": [],
         "human_version": "latest_15.0.3",
         "version": "15.0.3",
@@ -329,7 +329,7 @@
                 },
                 {
                     "name": "metallb",
-                    "version": "0.14.5",
+                    "version": "0.14.8",
                     "repository": "https://metallb.github.io/metallb",
                     "condition": "",
                     "alias": "metallb",
@@ -619,8 +619,8 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/_work/catalog/catalog/system/metallb/14.8.16",
-        "last_update": "2024-05-29 12:35:14",
+        "location": "/app/catalog/system/metallb/14.8.16",
+        "last_update": "2024-09-22 11:56:32",
         "required_features": [],
         "human_version": "latest_14.8.16",
         "version": "14.8.16",
@@ -638,7 +638,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "20.3.12",
+                    "version": "20.4.1",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",
@@ -647,7 +647,7 @@
                 },
                 {
                     "name": "metallb",
-                    "version": "0.14.5",
+                    "version": "0.14.8",
                     "repository": "https://metallb.github.io/metallb",
                     "condition": "",
                     "alias": "metallb",
@@ -792,8 +792,8 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/_work/catalog/catalog/system/metallb/14.8.15",
-        "last_update": "2024-05-29 12:35:14",
+        "location": "/app/catalog/system/metallb/14.8.15",
+        "last_update": "2024-09-22 11:56:32",
         "required_features": [],
         "human_version": "latest_14.8.15",
         "version": "14.8.15",
@@ -811,7 +811,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "20.3.11",
+                    "version": "20.4.1",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",
@@ -820,7 +820,7 @@
                 },
                 {
                     "name": "metallb",
-                    "version": "0.14.5",
+                    "version": "0.14.8",
                     "repository": "https://metallb.github.io/metallb",
                     "condition": "",
                     "alias": "metallb",

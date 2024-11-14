@@ -3,8 +3,8 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/_work/catalog/catalog/system/grafana-agent-operator/1.8.7",
-        "last_update": "2024-05-29 12:35:14",
+        "location": "/app/catalog/system/grafana-agent-operator/1.8.7",
+        "last_update": "2024-09-22 11:56:32",
         "required_features": [],
         "human_version": "0.39.2_1.8.7",
         "version": "1.8.7",
@@ -22,7 +22,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "20.3.11",
+                    "version": "20.4.1",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",
@@ -192,8 +192,8 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/_work/catalog/catalog/system/grafana-agent-operator/1.8.6",
-        "last_update": "2024-05-29 12:35:14",
+        "location": "/app/catalog/system/grafana-agent-operator/1.8.6",
+        "last_update": "2024-09-22 11:56:32",
         "required_features": [],
         "human_version": "0.39.2_1.8.6",
         "version": "1.8.6",
@@ -211,7 +211,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "20.3.7",
+                    "version": "20.4.1",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",
