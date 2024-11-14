@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: registry.k8s.io/sig-storage/snapshot-controller
-  tag: v7.0.1
+  tag: v7.0.2
 
 portal:
   open:
