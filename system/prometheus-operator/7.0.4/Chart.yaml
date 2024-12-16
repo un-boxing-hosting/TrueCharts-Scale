@@ -14,7 +14,7 @@ dependencies:
     tags: []
     import-values: []
   - name: kube-prometheus-stack
-    version: 56.21.4
+    version: 66.7.1
     repository: oci://ghcr.io/prometheus-community/charts
     condition: ""
     alias: kps
