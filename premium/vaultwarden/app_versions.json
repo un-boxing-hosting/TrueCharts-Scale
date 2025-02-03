@@ -6,8 +6,8 @@
         "location": "/app/catalog/premium/vaultwarden/27.1.2",
         "last_update": "2024-09-20 02:39:05",
         "required_features": [
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface",
             "definitions/timezone"
         ],
@@ -6175,8 +6175,8 @@
         "location": "/app/catalog/premium/vaultwarden/27.1.1",
         "last_update": "2024-09-20 02:39:05",
         "required_features": [
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface",
             "definitions/timezone"
         ],
@@ -12344,8 +12344,8 @@
         "location": "/app/catalog/premium/vaultwarden/26.8.15",
         "last_update": "2024-09-22 11:56:32",
         "required_features": [
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface",
             "definitions/timezone"
         ],
@@ -18623,8 +18623,8 @@
         "location": "/app/catalog/premium/vaultwarden/26.8.14",
         "last_update": "2024-09-22 11:56:32",
         "required_features": [
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface",
             "definitions/timezone"
         ],

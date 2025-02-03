@@ -1,7 +1,7 @@
 image:
-  repository: ghcr.io/onedr0p/prowlarr
-  tag: 1.25.4.4818@sha256:4df8b9d21469e5051d53d753fb1a277875ac5cdd1dc69068541adb165aae17a1
-  pullPolicy: IfNotPresent
+  repository: ghcr.io/onedr0p/radarr
+  pullPolicy: Always
+  tag: rolling
 exportarrImage:
   repository: ghcr.io/onedr0p/exportarr
   pullPolicy: IfNotPresent
@@ -13,7 +13,7 @@ service:
   main:
     ports:
       main:
-        port: 9696
+        port: 7878
   metrics:
     enabled: true
     type: ClusterIP
@@ -21,7 +21,7 @@ service:
     ports:
       metrics:
         enabled: true
-        port: 9697
+        port: 7879
         targetSelector: exportarr
 workload:
   main:
@@ -29,15 +29,20 @@ workload:
       containers:
         main:
           probes:
-            liveness:
-              path: /ping
             readiness:
+              enabled: true
+              type: http
+              path: /ping
+            liveness:
+              enabled: true
+              type: http
               path: /ping
             startup:
-              type: tcp
+              enabled: true
+              type: http
+              path: /ping
           env:
-            PROWLARR__PORT: "{{ .Values.service.main.ports.main.port }}"
-            PROWLARR__AUTHENTICATION_METHOD: ""
+            RADARR__PORT: "{{ .Values.service.main.ports.main.port }}"
   exportarr:
     enabled: true
     type: Deployment
@@ -50,7 +55,7 @@ workload:
           enabled: true
           imageSelector: exportarrImage
           args:
-            - prowlarr
+            - radarr
           probes:
             liveness:
               enabled: true
@@ -75,10 +80,6 @@ workload:
             # ENABLE_ADDITIONAL_METRICS: false
             # enable gathering unknown queue items
             # ENABLE_UNKNOWN_QUEUE_ITEMS: false
-            # enable backfill of historical metrics
-            # PROWLARR__BACKFILL: false
-            # Set a date from which to start the backfill
-            # PROWLARR__BACKFILL_SINCE_DATE: 1970-01-01
             CONFIG: "/config/config.xml"
 persistence:
   config:
@@ -91,14 +92,6 @@ persistence:
         exportarr:
           mountPath: /config
           readOnly: true
-configmap:
-  dashboard:
-    enabled: true
-    labels:
-      grafana_dashboard: "1"
-    data:
-      prowlarr.json: >-
-        {{ .Files.Get "dashboard.json" | indent 8 }}
 metrics:
   main:
     enabled: true

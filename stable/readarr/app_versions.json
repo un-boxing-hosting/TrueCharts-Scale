@@ -4,10 +4,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/app/catalog/stable/readarr/22.0.12",
-        "last_update": "2024-09-20 02:39:05",
+        "last_update": "2024-11-14 03:21:14",
         "required_features": [
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface",
             "definitions/timezone"
         ],
@@ -5374,10 +5374,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/app/catalog/stable/readarr/22.0.11",
-        "last_update": "2024-09-20 02:39:05",
+        "last_update": "2024-11-14 03:21:14",
         "required_features": [
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface",
             "definitions/timezone"
         ],

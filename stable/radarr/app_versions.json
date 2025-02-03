@@ -1,18 +1,18 @@
 {
-    "23.2.0": {
+    "rolling": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/app/catalog/stable/radarr/23.2.0",
-        "last_update": "2024-09-20 02:39:05",
+        "location": "/app/catalog/stable/radarr/rolling",
+        "last_update": "2025-2-2 03:10:54",
         "required_features": [
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface",
             "definitions/timezone"
         ],
-        "human_version": "5.7.0.8882_23.2.0",
-        "version": "23.2.0",
+        "human_version": "rolling",
+        "version": "rolling",
         "chart_metadata": {
             "annotations": {
                 "truecharts.org/category": "media",
@@ -21,7 +21,7 @@
                 "truecharts.org/train": "stable"
             },
             "apiVersion": "v2",
-            "appVersion": "5.7.0.8882",
+            "appVersion": "rolling",
             "dependencies": [
                 {
                     "name": "common",
@@ -58,7 +58,7 @@
                 "https://github.com/truecharts/charts/tree/master/charts/stable/radarr"
             ],
             "type": "application",
-            "version": "23.2.0"
+            "version": "rolling"
         },
         "app_metadata": null,
         "schema": {
@@ -5371,10 +5371,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/app/catalog/stable/radarr/22.2.4",
-        "last_update": "2024-09-20 02:39:05",
+        "last_update": "2024-11-14 03:10:54",
         "required_features": [
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface",
             "definitions/timezone"
         ],

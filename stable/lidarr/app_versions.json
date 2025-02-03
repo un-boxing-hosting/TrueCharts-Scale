@@ -1,18 +1,18 @@
 {
-    "22.1.6": {
+    "rolling": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/app/catalog/stable/lidarr/22.1.6",
-        "last_update": "2024-11-14 00:26:29",
+        "location": "/app/catalog/stable/lidarr/rolling",
+        "last_update": "2025-2-2 03:21:30",
         "required_features": [
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface",
             "definitions/timezone"
         ],
-        "human_version": "2.3.3.4204_22.1.6",
-        "version": "22.1.6",
+        "human_version": "2.4.3.4248_rolling",
+        "version": "rolling",
         "chart_metadata": {
             "annotations": {
                 "truecharts.org/category": "media",
@@ -58,7 +58,7 @@
                 "https://github.com/truecharts/charts/tree/master/charts/stable/lidarr"
             ],
             "type": "application",
-            "version": "22.1.6"
+            "version": "rolling"
         },
         "app_metadata": null,
         "schema": {
@@ -5371,10 +5371,10 @@
         "supported": true,
         "healthy_error": null,
         "location": "/app/catalog/stable/lidarr/22.1.5",
-        "last_update": "2024-11-14 00:26:29",
+        "last_update": "2024-11-14 03:21:30",
         "required_features": [
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface",
             "definitions/timezone"
         ],

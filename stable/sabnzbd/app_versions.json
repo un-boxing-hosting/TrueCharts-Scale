@@ -1,18 +1,18 @@
 {
-    "20.1.5": {
+    "rolling": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/app/catalog/stable/sabnzbd/20.1.5",
-        "last_update": "2024-11-14 00:29:43",
+        "location": "/app/catalog/stable/sabnzbd/rolling",
+        "last_update": "2025-2-2 00:29:43",
         "required_features": [
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface",
             "definitions/timezone"
         ],
-        "human_version": "4.3.1_20.1.5",
-        "version": "20.1.5",
+        "human_version": "4.4.1_rolling",
+        "version": "rolling",
         "chart_metadata": {
             "annotations": {
                 "truecharts.org/category": "media",
@@ -21,7 +21,7 @@
                 "truecharts.org/train": "stable"
             },
             "apiVersion": "v2",
-            "appVersion": "4.3.1",
+            "appVersion": "4.4.1",
             "dependencies": [
                 {
                     "name": "common",
@@ -57,7 +57,7 @@
                 "https://sabnzbd.org/"
             ],
             "type": "application",
-            "version": "20.1.5"
+            "version": "4.4.1"
         },
         "app_metadata": null,
         "schema": {
@@ -5344,8 +5344,8 @@
         "location": "/app/catalog/stable/sabnzbd/20.1.4",
         "last_update": "2024-11-14 00:29:43",
         "required_features": [
-            "definitions/certificate",
             "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface",
             "definitions/timezone"
         ],
