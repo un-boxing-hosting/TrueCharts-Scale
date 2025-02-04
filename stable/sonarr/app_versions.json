@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/app/catalog/stable/sonarr/rolling",
-        "last_update": "2025-2-2 03:21:17",
+        "last_update": "2025-02-02 03:21:17",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/certificate",

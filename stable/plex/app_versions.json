@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/app/catalog/stable/plex/rolling",
-        "last_update": "2025-2-2 02:39:05",
+        "last_update": "2025-02-02 02:39:05",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/nodeIP",
