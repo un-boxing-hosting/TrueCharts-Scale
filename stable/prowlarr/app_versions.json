@@ -3,7 +3,7 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/app/catalog/stable/prowlarr/rolling",
+        "location": "/app/catalog/stable/prowlarr/25.2.2",
         "last_update": "2025-02-02 03:10:45",
         "required_features": [
             "normalize/interfaceConfiguration",
@@ -11,8 +11,8 @@
             "definitions/interface",
             "definitions/timezone"
         ],
-        "human_version": "1.30.2.4939_rolling",
-        "version": "rolling",
+        "human_version": "1.30.2.4939_25.2.2",
+        "version": "25.2.2",
         "chart_metadata": {
             "annotations": {
                 "truecharts.org/category": "media",
@@ -59,7 +59,7 @@
                 "https://github.com/truecharts/charts/tree/master/charts/stable/prowlarr"
             ],
             "type": "application",
-            "version": "rolling"
+            "version": "25.2.2"
         },
         "app_metadata": null,
         "schema": {

@@ -1,9 +1,9 @@
 {
-    "rolling": {
+    "25.2.2": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/app/catalog/stable/plex/rolling",
+        "location": "/app/catalog/stable/plex/25.2.2",
         "last_update": "2025-02-02 02:39:05",
         "required_features": [
             "normalize/interfaceConfiguration",
@@ -12,8 +12,8 @@
             "definitions/interface",
             "definitions/timezone"
         ],
-        "human_version": "rolling",
-        "version": "rolling",
+        "human_version": "1.41.0.1018_25.2.2",
+        "version": "25.2.2",
         "chart_metadata": {
             "annotations": {
                 "truecharts.org/category": "media",
@@ -22,7 +22,7 @@
                 "truecharts.org/train": "stable"
             },
             "apiVersion": "v2",
-            "appVersion": "rolling",
+            "appVersion": "1.41.0.1018",
             "dependencies": [
                 {
                     "name": "common",
@@ -57,7 +57,7 @@
                 "https://github.com/truecharts/charts/tree/master/charts/stable/plex"
             ],
             "type": "application",
-            "version": "rolling"
+            "version": "25.2.2"
         },
         "app_metadata": null,
         "schema": {

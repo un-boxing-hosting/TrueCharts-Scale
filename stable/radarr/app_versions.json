@@ -1,9 +1,9 @@
 {
-    "rolling": {
+    "25.2.2": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/app/catalog/stable/radarr/rolling",
+        "location": "/app/catalog/stable/radarr/25.2.2",
         "last_update": "2025-02-02 03:10:54",
         "required_features": [
             "normalize/interfaceConfiguration",
@@ -11,8 +11,8 @@
             "definitions/interface",
             "definitions/timezone"
         ],
-        "human_version": "rolling",
-        "version": "rolling",
+        "human_version": "5.18.4.9674",
+        "version": "25.2.2",
         "chart_metadata": {
             "annotations": {
                 "truecharts.org/category": "media",
@@ -21,7 +21,7 @@
                 "truecharts.org/train": "stable"
             },
             "apiVersion": "v2",
-            "appVersion": "rolling",
+            "appVersion": "5.18.4.9674",
             "dependencies": [
                 {
                     "name": "common",

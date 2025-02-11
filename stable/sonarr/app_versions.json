@@ -3,7 +3,7 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/app/catalog/stable/sonarr/rolling",
+        "location": "/app/catalog/stable/sonarr/25.2.2",
         "last_update": "2025-02-02 03:21:17",
         "required_features": [
             "normalize/interfaceConfiguration",
@@ -11,7 +11,7 @@
             "definitions/interface",
             "definitions/timezone"
         ],
-        "human_version": "4.0.12.2823_rolling",
+        "human_version": "4.0.12.2823_25.2.2",
         "version": "4.0.12.2823",
         "chart_metadata": {
             "annotations": {
@@ -58,7 +58,7 @@
                 "https://github.com/truecharts/charts/tree/master/charts/stable/sonarr"
             ],
             "type": "application",
-            "version": "4.0.12.2823"
+            "version": "25.2.2"
         },
         "app_metadata": null,
         "schema": {
