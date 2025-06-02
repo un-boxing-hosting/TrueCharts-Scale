@@ -1,9 +1,9 @@
 {
-    "25.2.2": {
+    "25.6.1": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/app/catalog/stable/sabnzbd/25.2.2",
+        "location": "/app/catalog/stable/sabnzbd/25.6.1",
         "last_update": "2025-02-02 00:29:43",
         "required_features": [
             "normalize/interfaceConfiguration",
@@ -11,8 +11,8 @@
             "definitions/interface",
             "definitions/timezone"
         ],
-        "human_version": "4.4.1_25.2.2",
-        "version": "25.2.2",
+        "human_version": "25.6.1",
+        "version": "25.6.1",
         "chart_metadata": {
             "annotations": {
                 "truecharts.org/category": "media",
@@ -21,7 +21,7 @@
                 "truecharts.org/train": "stable"
             },
             "apiVersion": "v2",
-            "appVersion": "25.2.2",
+            "appVersion": "25.6.1",
             "dependencies": [
                 {
                     "name": "common",
@@ -52,12 +52,12 @@
             "name": "sabnzbd",
             "sources": [
                 "https://ghcr.io/onedr0p/exportarr",
-                "https://ghcr.io/onedr0p/sabnzbd",
+                "https://ghcr.io/home-operations/sabnzbd",
                 "https://github.com/truecharts/charts/tree/master/charts/stable/sabnzbd",
                 "https://sabnzbd.org/"
             ],
             "type": "application",
-            "version": "25.2.2"
+            "version": "25.6.1"
         },
         "app_metadata": null,
         "schema": {
@@ -5342,7 +5342,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/app/catalog/stable/sabnzbd/20.1.4",
-        "last_update": "2024-11-14 00:29:43",
+        "last_update": "2025-06-01 00:29:43",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/certificate",
@@ -5390,7 +5390,7 @@
             "name": "sabnzbd",
             "sources": [
                 "https://ghcr.io/onedr0p/exportarr",
-                "https://ghcr.io/onedr0p/sabnzbd",
+                "https://ghcr.io/home-operations/sabnzbd",
                 "https://github.com/truecharts/charts/tree/master/charts/stable/sabnzbd",
                 "https://sabnzbd.org/"
             ],

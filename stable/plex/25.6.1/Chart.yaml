@@ -4,7 +4,7 @@ annotations:
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
 apiVersion: v2
-appVersion: 4.3.1
+appVersion: 1.40.4.8679
 dependencies:
   - name: common
     version: 23.0.11
@@ -14,22 +14,21 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Free and easy binary newsreader
-home: https://truecharts.org/charts/stable/sabnzbd
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/sabnzbd.webp
+description: Plex Media Server
+home: https://truecharts.org/charts/stable/plex
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/plex.webp
 keywords:
-  - sabnzbd
-  - usenet
+  - plex
+  - plex-media-server
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: sabnzbd
+name: plex
 sources:
-  - https://ghcr.io/onedr0p/exportarr
-  - https://ghcr.io/onedr0p/sabnzbd
-  - https://github.com/truecharts/charts/tree/master/charts/stable/sabnzbd
-  - https://sabnzbd.org/
+  - https://ghcr.io/home-operations/plex
+  - https://github.com/k8s-at-home/container-images/pkgs/container/plex
+  - https://github.com/truecharts/charts/tree/master/charts/stable/plex
 type: application
-version: 20.1.5
+version: 19.0.3

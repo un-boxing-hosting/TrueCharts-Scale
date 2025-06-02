@@ -4,7 +4,7 @@ annotations:
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
 apiVersion: v2
-appVersion: 5.7.0.8882
+appVersion: 0.4.16
 dependencies:
   - name: common
     version: 23.0.11
@@ -14,23 +14,26 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: A fork of Sonarr to work with movies à la Couchpotato
-home: https://truecharts.org/charts/stable/radarr
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/radarr.webp
+description: A fork of Radarr to work with Books & AudioBooks
+home: https://truecharts.org/charts/stable/readarr
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/readarr.webp
 keywords:
-  - radarr
+  - readarr
   - torrent
   - usenet
+  - AudioBooks
+  - ebooks
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: radarr
+name: readarr
 sources:
   - https://ghcr.io/onedr0p/exportarr
-  - https://ghcr.io/onedr0p/radarr
-  - https://github.com/Radarr/Radarr
-  - https://github.com/truecharts/charts/tree/master/charts/stable/radarr
+  - https://ghcr.io/home-operations/readarr-develop
+  - https://github.com/Readarr/Readarr
+  - https://github.com/truecharts/charts/tree/master/charts/stable/readarr
+  - https://readarr.com
 type: application
-version: 23.2.0
+version: 25.6.1

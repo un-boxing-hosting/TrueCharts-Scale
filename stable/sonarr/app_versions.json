@@ -1,9 +1,9 @@
 {
-    "25.2.2": {
+    "25.6.1": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/app/catalog/stable/sonarr/25.2.2",
+        "location": "/app/catalog/stable/sonarr/25.6.1",
         "last_update": "2025-02-02 03:21:17",
         "required_features": [
             "normalize/interfaceConfiguration",
@@ -11,8 +11,8 @@
             "definitions/interface",
             "definitions/timezone"
         ],
-        "human_version": "4.0.12.2823_25.2.2",
-        "version": "4.0.12.2823",
+        "human_version": "25.6.1",
+        "version": "25.6.1",
         "chart_metadata": {
             "annotations": {
                 "truecharts.org/category": "media",
@@ -21,7 +21,7 @@
                 "truecharts.org/train": "stable"
             },
             "apiVersion": "v2",
-            "appVersion": "4.0.12.2823",
+            "appVersion": "25.6.1",
             "dependencies": [
                 {
                     "name": "common",
@@ -53,12 +53,12 @@
             "name": "sonarr",
             "sources": [
                 "https://ghcr.io/onedr0p/exportarr",
-                "https://ghcr.io/onedr0p/sonarr",
+                "https://ghcr.io/home-operations/sonarr",
                 "https://github.com/Sonarr/Sonarr",
                 "https://github.com/truecharts/charts/tree/master/charts/stable/sonarr"
             ],
             "type": "application",
-            "version": "25.2.2"
+            "version": "25.6.1"
         },
         "app_metadata": null,
         "schema": {
@@ -5371,7 +5371,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/app/catalog/stable/sonarr/22.0.10",
-        "last_update": "2024-11-14 03:21:17",
+        "last_update": "2025-06-01 03:21:17",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/certificate",
@@ -5420,7 +5420,7 @@
             "name": "sonarr",
             "sources": [
                 "https://ghcr.io/onedr0p/exportarr",
-                "https://ghcr.io/onedr0p/sonarr",
+                "https://ghcr.io/home-operations/sonarr",
                 "https://github.com/Sonarr/Sonarr",
                 "https://github.com/truecharts/charts/tree/master/charts/stable/sonarr"
             ],

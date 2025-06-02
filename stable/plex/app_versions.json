@@ -1,9 +1,9 @@
 {
-    "25.2.2": {
+    "25.6.1": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/app/catalog/stable/plex/25.2.2",
+        "location": "/app/catalog/stable/plex/25.6.1",
         "last_update": "2025-02-02 02:39:05",
         "required_features": [
             "normalize/interfaceConfiguration",
@@ -12,8 +12,8 @@
             "definitions/interface",
             "definitions/timezone"
         ],
-        "human_version": "1.41.0.1018_25.2.2",
-        "version": "25.2.2",
+        "human_version": "25.6.1",
+        "version": "25.6.1",
         "chart_metadata": {
             "annotations": {
                 "truecharts.org/category": "media",
@@ -22,7 +22,7 @@
                 "truecharts.org/train": "stable"
             },
             "apiVersion": "v2",
-            "appVersion": "1.41.0.1018",
+            "appVersion": "25.6.1",
             "dependencies": [
                 {
                     "name": "common",
@@ -52,12 +52,12 @@
             ],
             "name": "plex",
             "sources": [
-                "https://ghcr.io/onedr0p/plex",
+                "https://ghcr.io/home-operations/plex",
                 "https://github.com/k8s-at-home/container-images/pkgs/container/plex",
                 "https://github.com/truecharts/charts/tree/master/charts/stable/plex"
             ],
             "type": "application",
-            "version": "25.2.2"
+            "version": "25.6.1"
         },
         "app_metadata": null,
         "schema": {
@@ -5409,7 +5409,7 @@
             ],
             "name": "plex",
             "sources": [
-                "https://ghcr.io/onedr0p/plex",
+                "https://ghcr.io/home-operations/plex",
                 "https://github.com/k8s-at-home/container-images/pkgs/container/plex",
                 "https://github.com/truecharts/charts/tree/master/charts/stable/plex"
             ],

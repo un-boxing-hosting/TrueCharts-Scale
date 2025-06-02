@@ -1,18 +1,18 @@
 {
-    "22.0.12": {
+    "25.6.1": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/app/catalog/stable/readarr/22.0.12",
-        "last_update": "2024-11-14 03:21:14",
+        "location": "/app/catalog/stable/readarr/25.6.1",
+        "last_update": "2025-06-01 03:21:14",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/certificate",
             "definitions/interface",
             "definitions/timezone"
         ],
-        "human_version": "0.3.27.2538_22.0.12",
-        "version": "22.0.12",
+        "human_version": "25.6.1",
+        "version": "25.6.1",
         "chart_metadata": {
             "annotations": {
                 "truecharts.org/category": "media",
@@ -21,7 +21,7 @@
                 "truecharts.org/train": "stable"
             },
             "apiVersion": "v2",
-            "appVersion": "0.3.27.2538",
+            "appVersion": "25.6.1",
             "dependencies": [
                 {
                     "name": "common",
@@ -55,13 +55,13 @@
             "name": "readarr",
             "sources": [
                 "https://ghcr.io/onedr0p/exportarr",
-                "https://ghcr.io/onedr0p/readarr-develop",
+                "https://ghcr.io/home-operations/readarr-develop",
                 "https://github.com/Readarr/Readarr",
                 "https://github.com/truecharts/charts/tree/master/charts/stable/readarr",
                 "https://readarr.com"
             ],
             "type": "application",
-            "version": "22.0.12"
+            "version": "25.6.1"
         },
         "app_metadata": null,
         "schema": {
@@ -5374,14 +5374,14 @@
         "supported": true,
         "healthy_error": null,
         "location": "/app/catalog/stable/readarr/22.0.11",
-        "last_update": "2024-11-14 03:21:14",
+        "last_update": "2025-06-01 03:21:14",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/certificate",
             "definitions/interface",
             "definitions/timezone"
         ],
-        "human_version": "0.3.27.2538_22.0.11",
+        "human_version": "0.4.16_22.0.11",
         "version": "22.0.11",
         "chart_metadata": {
             "annotations": {
@@ -5391,7 +5391,7 @@
                 "truecharts.org/train": "stable"
             },
             "apiVersion": "v2",
-            "appVersion": "0.3.27.2538",
+            "appVersion": "0.4.16",
             "dependencies": [
                 {
                     "name": "common",
@@ -5425,7 +5425,7 @@
             "name": "readarr",
             "sources": [
                 "https://ghcr.io/onedr0p/exportarr",
-                "https://ghcr.io/onedr0p/readarr-develop",
+                "https://ghcr.io/home-operations/readarr-develop",
                 "https://github.com/Readarr/Readarr",
                 "https://github.com/truecharts/charts/tree/master/charts/stable/readarr",
                 "https://readarr.com"
