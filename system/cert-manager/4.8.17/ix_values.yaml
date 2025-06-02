@@ -1,7 +1,7 @@
 image:
   repository: tccr.io/tccr/scratch
   pullPolicy: IfNotPresent
-  tag: latest@sha256:ef27d569e535092ec48e3c86502b31e482f392508964d6068b5558a75d43287e
+  tag: latest@sha256:4aef9dbf99ea2a8857ed4ce9d9bf79d330b79044884c7374e392445d122ec746
 
 service:
   main:
