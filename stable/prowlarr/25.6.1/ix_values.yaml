@@ -1,7 +1,7 @@
 image:
   repository: ghcr.io/home-operations/prowlarr
-  tag: 1.30.2.4939@sha256:7234ae8ca5b14153baddf42257cc2ddc928695ce604d11a9616b635eca0e43e7
-  pullPolicy: IfNotPresent
+  tag: rolling
+  pullPolicy: Always
 exportarrImage:
   repository: ghcr.io/onedr0p/exportarr
   pullPolicy: Always

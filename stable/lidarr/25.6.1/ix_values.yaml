@@ -1,7 +1,7 @@
 image:
   repository: ghcr.io/home-operations/lidarr
-  pullPolicy: IfNotPresent
-  tag: 2.4.3.4248@sha256:fcf7417a7dfa9967a78d668904c62888272bd6dd814b4b9c4500618f51be6b86
+  pullPolicy: Always
+  tag: rolling
 exportarrImage:
   repository: ghcr.io/onedr0p/exportarr
   pullPolicy: Always
