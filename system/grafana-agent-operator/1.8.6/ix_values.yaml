@@ -1,7 +1,7 @@
 image:
   repository: grafana/agent-operator
   pullPolicy: IfNotPresent
-  tag: v0.39.2@sha256:841e8e1365758116d4058aa561d8d0f9deb3f6339d17548eadeeecc46889307f
+  tag: v0.44.8@sha256:bbba709430bb093a638cc3b94a6f3539d3634b8c710d32fcd42eeebbd4590204
 
 podOptions:
   automountServiceAccountToken: true
