@@ -5,7 +5,7 @@ image:
 proxyImage:
   repository: quay.io/brancz/kube-rbac-proxy
   pullPolicy: IfNotPresent
-  tag: v0.14.4@sha256:40d0d5d0032f9bd689bb6ee7d1960048c295e019b7110d5fadea5aff9599baa5
+  tag: v0.23.1@sha256:c280684dd23793fb2f287d1f4efc84b7800b3e01205d770b98694827bfe514cb
 
 manageCRDs: true
 manageVSCCRD: true
